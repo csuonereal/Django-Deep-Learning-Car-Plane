@@ -36,7 +36,7 @@ def image_preprocessor(file,request):
 
 
 def model_loader():
-    path = 'C:\\Users\\user\Desktop\\python\\DL car or plane'
+    path = 'C:\Users\csuon\Desktop\Django-DL-2\jupyter'
     model = load_model(path)
 
     return model
